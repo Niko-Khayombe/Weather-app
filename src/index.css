@@ -140,3 +140,23 @@ main {
     transform: translateY(-15px) rotate(-5deg);
   }
 }
+
+@media (max-width: 768px) {
+  .homeSection {
+    padding: 20px;
+  }
+
+  .searchSection input, .searchSection button {
+    font-size: 0.9rem;
+    padding: 10px;
+  }
+
+  .displaySection h2 {
+    font-size: 1.5rem;
+  }
+
+  .displaySection img {
+    width: 100px;
+    height: 100px;
+  }
+}
